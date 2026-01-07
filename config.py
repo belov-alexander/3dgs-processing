@@ -1,0 +1,31 @@
+"""
+Configuration file for 3dgs-colmap-brush pipeline.
+These values are used as defaults in the main script.
+"""
+
+# Binary Names / Paths
+COLMAP_BIN = "colmap"
+BRUSH_BIN = "brush"
+
+# Mask Settings
+MASK_EXT = "png"
+
+# COLMAP Settings
+SFM_MAX_IMAGE_SIZE = 4096
+SIFT_MAX_NUM_FEATURES = 8192
+UNDISTORT_MAX_IMAGE_SIZE = 2400
+CAMERA_MODEL = "OPENCV"
+SINGLE_CAMERA = 1
+MIN_NUM_MATCHES = 32
+REFINE_FOCAL_LENGTH = 1
+REFINE_EXTRA_PARAMS = 1
+REFINE_PRINCIPAL_POINT = 0
+
+# Brush Settings
+RUN_BRUSH = 1
+BRUSH_TOTAL_STEPS = 30000
+BRUSH_MAX_SPLATS = 6000000
+BRUSH_EXPORT_EVERY = 5000
+BRUSH_EVAL_SPLIT_EVERY = 10
+BRUSH_EXPORT_NAME = "export_{iter}.ply"
+CUBECL_DEFAULT_DEVICE = None

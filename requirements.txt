@@ -1,0 +1,5 @@
+# This script primarily uses the Python standard library.
+# No specific external Python packages are required to run `3dgs-colmap-brush.py`.
+# However, you must have the following external binaries installed and in your PATH:
+# 1. colmap (Structure-from-Motion)
+# 2. brush (3DGS training/rendering)
